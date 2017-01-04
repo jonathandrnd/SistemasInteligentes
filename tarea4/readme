@@ -1,0 +1,42 @@
+Tarea 4 - Sistemas Inteligentes
+
+ex3
+lrCostFunction.m
+oneVsAll.m
+predict.m
+predictOneVsAll.m
+
+ex4
+sigmoidGradient.m
+nnCostFunction.m
+randInitializeWeights.m
+
+Trabajo de Red Neuronal en Tensor Flow
+Guardar los archivos car.data y car-prueba.data en la misma carpeta del archivo en python neuralnetwork.py
+Ejecutar neuralnetwork.py
+
+--Resultado--
+1724
+4
+WARNING:tensorflow:From C:/Users/Lenovo/Desktop/MAESTRIA/Sistemas inteligentes/tarea4/neuralnetwork.py:168 in <module>.: initialize_all_variables (from tensorflow.python.ops.variables) is deprecated and will be removed after 2017-03-02.
+Instructions for updating:
+Use `tf.global_variables_initializer` instead.
+Initiallized
+Minibatch loss at step 0: 2.689016
+	Minibatch accuracy: 85.9%
+Minibatch loss at step 500: 0.020628
+	Minibatch accuracy: 99.2%
+Minibatch loss at step 1000: 0.002849
+	Minibatch accuracy: 100.0%
+Minibatch loss at step 1500: 0.008868
+	Minibatch accuracy: 100.0%
+Minibatch loss at step 2000: 0.005639
+	Minibatch accuracy: 100.0%
+[[  1.00000000e+00   1.61558299e-12   2.31049450e-11   1.94198024e-14]
+ [  2.62844014e-06   4.18667635e-03   7.93001789e-07   9.95809913e-01]
+ [  6.01737380e-01   9.50404342e-07   1.87185533e-16   3.98261666e-01]
+ [  9.99718249e-01   2.81698129e-04   2.38882366e-14   3.24267775e-23]]
+solucion  0 b'unacc'
+solucion  1 b'good'
+solucion  2 b'unacc'
+solucion  3 b'unacc'
