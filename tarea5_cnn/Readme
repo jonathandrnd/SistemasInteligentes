@@ -1,0 +1,11 @@
+##################### CNN CIFAR-10 #####################################
+El dataset puede ser descargado http://www.cs.utoronto.ca/~kriz/cifar.html
+Para la CNN utilizamos tensorflow - libreria pretty tensor para facilitar la creacion de la red.
+La cantidad de iteraciones para el entrenamiento es de 150000. (Aprox 11 horas) -> Ver SALIDA: output.txt
+La precision es del 80.4%
+
+El algoritmo guarda los pesos de la red cada 1000 iteraciones -> VER CARPETA: checkpoints.
+Correr el archivo main.py -> demora 20 segundos en levantar la data y obtener los pesos de la carpeta checkpoints.
+
+El dataset descargado debe ser guardado en la carpeta data/CIFAR-10
+
