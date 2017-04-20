@@ -11,9 +11,9 @@
 using namespace std;
 
 int main(){
-	omp_set_num_threads(1);
+	omp_set_num_threads(8);
 
-	int d = 10;
+	int d = 2;
 	vector<double>lower(d);
 	vector<double>upper(d);
 
